@@ -12,9 +12,6 @@ const Posts = () => {
   return (
     <div>
       <h2>Post: {posts.length}</h2>
-      {posts.map((post) => (
-        <Post post={post}></Post>
-      ))}
     </div>
   );
 };
